@@ -102,4 +102,4 @@ ronin:0aa5f40bc4aefcedf3f0baf40fd97bc95049714f, 0x845e439697c2d5fe5b2d4b7f9ef8e3
 Discord: https://discord.gg/BHkz3Mqqwc
 
 # v0.0.1
-![Alt text](src/assets/example--v-0-1-1.png?raw=true "UI")
+Click on `example.png` to see a preview of the website
