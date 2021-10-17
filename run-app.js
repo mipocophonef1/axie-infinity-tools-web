@@ -3,9 +3,9 @@ var fs = require('fs');
 var path = require('path');
 
 const server = http.createServer(function (request, response) {
-  var filePath = './axie-tools' + request.url;
+  var filePath = './website' + request.url;
   if (request.url == '/')
-    filePath = './axie-tools/index.html';
+    filePath = './website/index.html';
 
   var extname = path.extname(filePath);
   var contentType = 'text/html';

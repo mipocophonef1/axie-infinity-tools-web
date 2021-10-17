@@ -26,14 +26,13 @@ No fees for now!
 
 ### **Send payouts**
 There is a 5 SLP fee per scholar in the code that we take from the manager, scholars receive 100% of their cut. 
-Also there is a 100 SLP fee per scholar if necessary (only applied for aromaz scholarships, you'll see a big disclaimer if that's the case).
 
 # How to use it locally
 
 ### **Installation**
 - Install [Node.js](https://nodejs.org/) (We recommend the LTS version).
 - Download the software from github and uncompress it. (Click on "Code" -> "Download zip" ).
-- Open the terminal (PowerShell on Windows 10), go to the new folder and run `node app.js` to turn on the local server.
+- Open the terminal (PowerShell on Windows 10), go to the new folder and run `node run-app.js` to turn on the local server.
 - Open a browser and go to `http://localhost:3000`.
 
 ### **Set manager address**
@@ -46,7 +45,7 @@ ronin:0aa5f40bc4aefcedf3f0baf40fd97bc95049714e
 ```
 
 ### **Add Scholars**
-- Go to `axie-tools/scholars.csv` and add all your scholars in the given format inside the file `address, name, managerPercentage, scholarPaymentAddress, inTrezor, trezorAccountNumber`.
+- Go to `website/scholars.csv` and add all your scholars in the given format inside the file `address, name, managerPercentage, scholarPaymentAddress, inTrezor, trezorAccountNumber`.
 
     - address: ronin wallet address (ronin:0aa5f40bc4aefcedf3f0baf40fd97bc95049714e)
     - name: whatever you use to identify your scholars (#1 | Scholar 1)
@@ -65,7 +64,7 @@ ronin:0aa5f40bc4aefcedf3f0baf40fd97bc95049714f, #2 | Scholar 2, 50, ronin:0aa5f4
 
 ### **Add Private keys** (if necessary)
 
-- Go to `axie-tools/private-keys.csv` and add the private keys (if necessary) in the given format inside the file `address, privateKey`. Please, keep this file safe, even if you use trezor if someone gets your recovery seed or private keys, he would be able to create and sign transactions without trezor's physical device.
+- Go to `website/private-keys.csv` and add the private keys (if necessary) in the given format inside the file `address, privateKey`. Please, keep this file safe, even if you use trezor if someone gets your recovery seed or private keys, he would be able to create and sign transactions without trezor's physical device.
 
 Example:
 
@@ -102,6 +101,3 @@ ronin:0aa5f40bc4aefcedf3f0baf40fd97bc95049714f, 0x845e439697c2d5fe5b2d4b7f9ef8e3
 
 # Contact
 Discord: https://discord.gg/BHkz3Mqqwc
-
-# v0.0.1
-Click on `example.png` to see a preview of the website
